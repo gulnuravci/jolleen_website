@@ -37,7 +37,7 @@
 
 .title-image {
     --title-left: 50%;
-    --title-top: 22%;
+    --title-top: 15%;
     position: absolute;
     left: var(--title-left);
     top: var(--title-top);
