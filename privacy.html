@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Jolleen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="privacy-bg">
+    <div class="privacy-wrapper">
+        <div class="title-image">Privacy Policy</div>
+        <img src="sparkles.gif" alt="Sparkles" class="sparkles-effect" />
+        <a href="index.html" class="back-button" aria-label="Go back">
+            <img src="fairy-frog.gif" alt="Back" />
+        </a>
+        <img src="wand.png" alt="Custom Cursor" class="custom-cursor" style="display:none;" />
+        <script src="sparkles.js"></script>
+        <script src="custom-cursor.js"></script>
+        <div class="privacy-content">
+            <h4>Last Updated: July 9, 2025</p>
+            <h3>Table of Contents</h3>
+            <ol>
+                <li>
+                    <a href="#data-sharing">
+                        <p>Data Sharing</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#data-collection-and-usage">
+                        <p>Data Collection and Usage</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#data-retention">
+                        <p>Data Retention</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#data-storage-and-security">
+                        <p>Data Storage and Security</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#childrens-privacy">
+                        <p>Children's Privacy</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#changes-to-this-policy">
+                        <p>Changes to This Policy</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#your-rights">
+                        <p>Your Rights</p>
+                    </a>
+                </li>
+            </ol>
+
+            <h3 id="data-sharing">Data Sharing</h3>
+            <p>We do not sell, rent, or share your personal information with third parties except:</p>
+            <ul>
+                <li><strong>AWS Services:</strong> We use AWS Cognito for authentication and AWS DynamoDB for data storage.</li>
+                <li><strong>AI Processing:</strong> Your conversation text is processed by AI services to generate responses.</li>
+                <li><strong>Legal Requirements:</strong> When required by law or to protect our rights and safety.</li>
+            </ul>
+
+            <h3 id="data-collection-and-usage">Data Collection and Usage</h3>
+
+            <p>The user has the option to sign up for an account or to use the app as a guest anonymously. For users who sign up, we collect the following data:</p>
+            <ul>
+                <li><u>Email address</u> - This is used to recover your account if you forget your password.</li>
+                <li><u>Username</u> - This is used as one of the identifiers of the user's account.</li>
+                <li><u>Password (encrypted and stored securely via AWS Cognito)</u> - This is used to log in to your account.</li>
+                <li><u>Birthdate (optional)</u> - The user's birthdate is required and used to calculate their age.</li>
+            </ul>
+
+            <p>The user is able to have conversations with an AI chatbot in this game. In order to facilitate this experience, we collect the following data:
+                <ul>
+                    <li><u>Transcription of the user's voice</u> - The recording of the user's voice starts when the user starts a recording and stops when the user stops the recording. This audio is immediately transcribed into text which is stored. The actual voice of the user is not stored by the Jolleen app.</li>
+                    <li><u>Timestamps</u> - The timestamp of when the user records an audio message as input to the AI chatbot, when the AI chatbot responds, and the timestamp of when a conversation is initially created is stored.</li>
+                    <li><u>Conversation history</u> - The back and forth conversation between the user and the AI chatbot are stored as text and timestamps.</li>
+                </ul>
+                Each conversation started by a signed up user while they are signed in is stored and associated with the user's account. Conversations started by a guest user have anonymous identifiers but the conversation history is still stored.
+            </p>
+
+            <h3 id="data-storage-and-security">Data Storage and Security</h3>
+            <p>The data is stored in the following locations:</p>
+            <ul>
+                <li><u>Authentication Data</u>: Stored securely using AWS Cognito with industry-standard encryption.</li>
+                <li><u>Conversation Data</u>: Stored in AWS DynamoDB with user-specific access controls.</li>
+                <li><u>Local Data</u>: Some preferences and settings may be stored locally on your device.</li>
+            </ul>
+
+            <h3 id="data-retention">Data Retention</h3>
+            <p>Users that have signed up for an account are able to delete their account at any time by going to the settings page and clicking the "Delete Account" button. This will delete the user's account and all associated data.</p>
+            <p>If a user wants to delete their account but forgot their password, they can recover their account by visiting the "Recover Account" page in the settings menu within the app. The user will get an email with a link to reset their password. If the user does not remember their email address or otherwise has trouble with this process, they can contact us at <a href="mailto:gulnurzavci@gmail.com">gulnurzavci@gmail.com</a> and we will assist the deletion of the account.</p>
+            <p>Transcriptions of audio recordings are stored as part of the conversation history, while the actual audio data is not retained at all. <u><b>Audio is only recorded when the user explicitly starts a recording.</b></u></p>
+
+            <h3 id="childrens-privacy">Children's Privacy</h3>
+            <p>The Jolleen app is not intended for children under the age of 13. We do not knowingly collect personal information from children under the age of 13. If we become aware that we have collected personal information from a child under the age of 13, we will take steps to delete this information as soon as possible.</p>
+            <p>If a user willing provides their birthdate during sign up, we will use this to calculate their age. If the user is under the age of 13, we will not allow them to sign up for an account with the provided birthdate.</p>
+
+            <h3 id="changes-to-this-policy">Changes to This Policy</h3>
+            <p>We may update this privacy policy from time to time. If we make any changes, we will post the updated policy on this page and update the "Last Updated" date above.</p>
+
+            <h3 id="your-rights">Your Rights</h3>
+            <p>The user has the following rights:</p>
+            <ul>
+                <li><u>Access</u>: The user can access their account by signing in to the app with their email and password.</li>
+                <li><u>Correction</u>: The user can update their password via the "Recover Account" page in the settings menu within the app.</li>
+                <li><u>Deletion</u>: The user can delete their account by going to the settings page and clicking the "Delete Account" button.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 

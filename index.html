@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jolleen VR Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-image">Jolleen</div>
+    <img src="IMG_2712.PNG" alt="Character Clipart" class="character-clipart" />
+    <img src="sparkles.gif" alt="Sparkles" class="sparkles-effect" />
+    <img src="wand.png" alt="Custom Cursor" class="custom-cursor" style="display:none;" />
+    <div class="button-container">
+        <a href="#" class="menu-link" style="text-decoration:none;">
+            <div class="menu-button">
+                <img src="JCGB-green_L_rounded_btn.png" alt="How To Play" class="menu-button-img" />
+                <span class="menu-button-text">How To Play</span>
+            </div>
+        </a>
+        <a href="#" class="menu-link" style="text-decoration:none;">
+            <div class="menu-button">
+                <img src="JCGB-green_L_rounded_btn.png" alt="Video Demo" class="menu-button-img" />
+                <span class="menu-button-text">Video Demo</span>
+            </div>
+        </a>
+        <a href="https://forms.gle/CypVkYDoQDGKHsN66" target="_blank" rel="noopener noreferrer" class="menu-link" style="text-decoration:none;">
+            <div class="menu-button">
+                <img src="JCGB-green_L_rounded_btn.png" alt="Feedback Form" class="menu-button-img" />
+                <span class="menu-button-text">Feedback Form</span>
+            </div>
+        </a>
+        <a href="#" class="menu-link" style="text-decoration:none;">
+            <div class="menu-button">
+                <img src="JCGB-green_L_rounded_btn.png" alt="Store Link" class="menu-button-img" />
+                <span class="menu-button-text">Store Link</span>
+            </div>
+        </a>
+        <a href="privacy.html" class="menu-link" style="text-decoration:none;">
+            <div class="menu-button">
+                <img src="JCGB-green_L_rounded_btn.png" alt="Privacy Policy" class="menu-button-img" />
+                <span class="menu-button-text">Privacy Policy</span>
+            </div>
+        </a>
+    </div>
+    <script>
+      // Preload audio
+      const hoverSound = new Audio('hover-button.mp3');
+      const clickSound = new Audio('click-button.mp3');
+      hoverSound.volume = 0.5;
+      clickSound.volume = 0.1;
+
+      document.querySelectorAll('.menu-button').forEach(btn => {
+        btn.addEventListener('mouseenter', () => {
+          // Restart sound if already playing
+          hoverSound.currentTime = 0;
+          hoverSound.play();
+        });
+        btn.addEventListener('click', () => {
+          clickSound.currentTime = 0;
+          clickSound.play();
+        });
+      });
+    </script>
+    <script src="sparkles.js"></script>
+    <script src="custom-cursor.js"></script>
+</body>
+</html> 

@@ -1,0 +1,92 @@
+/* 
+GREEN COLOR PALETTE FOR JOLLEEN VR GAME WEBSITE
+===============================================
+
+This file contains all the color variables used throughout the website.
+You can easily change the entire theme by modifying these values.
+
+USAGE:
+- Import this file in your main CSS: @import 'color-palette.css';
+- Or copy these variables to your main CSS file
+*/
+
+/*
+UPDATED COLOR PALETTE BASED ON USER IMAGE
+=========================================
+
+#142A1C - Dark green
+#FF3438 - Imperial red
+#BCDEF4 - Columbia blue
+#14672D - Dartmouth green
+#1C7932 - Dark spring green
+#FFD600 - Bold yellow 
+*/
+
+:root {
+    /* PRIMARY GREENS */
+    --primary-green: #14672D;         /* Dartmouth green - main brand color */
+    --primary-green-dark: #1C7932;    /* Dark spring green - hover/active */
+    --primary-green-deep: #142A1C;    /* Dark green - for text or deep backgrounds */
+
+    /* ACCENT COLORS */
+    --accent-red: #FF3438;            /* Imperial red - for warnings, highlights */
+    --accent-blue: #BCDEF4;           /* Columbia blue - for backgrounds, cards */
+    --accent-yellow: #FFD600;         /* Bold yellow - for buttons */
+
+    /* NEUTRALS */
+    --white: #ffffff;
+    --black: #000000;
+    
+    /* ACCENT GREEN COLORS */
+    --accent-green: #16a085;       /* Teal accent - use for secondary elements */
+    --accent-green-dark: #138d75;  /* Darker teal - use for hover states */
+    --forest-green: #229954;       /* Deep forest green - use for headers, emphasis */
+    --sage-green: #7fb069;         /* Muted sage green - use for subtle backgrounds */
+    --emerald-green: #00b894;      /* Bright emerald - use for call-to-action elements */
+    --mint-green: #a9dfbf;         /* Light mint - use for light backgrounds, cards */
+    
+    /* NEUTRAL COLORS */
+    --light-gray: #f8f9fa;         /* Very light gray - use for page backgrounds */
+    --medium-gray: #6c757d;        /* Medium gray - use for secondary text */
+    --dark-gray: #343a40;          /* Dark gray - use for body text */
+    
+    /* SEMANTIC COLORS */
+    --success-green: #28a745;      /* Success messages, confirmations */
+    --warning-orange: #ffc107;     /* Warning messages, alerts */
+    --error-red: #dc3545;          /* Error messages, destructive actions */
+    --info-blue: #17a2b8;          /* Information messages, tips */
+}
+
+/* 
+COLOR COMBINATIONS SUGGESTIONS:
+==============================
+
+1. PRIMARY BUTTONS:
+   background: var(--primary-green);
+   color: var(--white);
+   hover: var(--primary-green-dark);
+
+2. SECONDARY BUTTONS:
+   background: var(--accent-green);
+   color: var(--white);
+   hover: var(--accent-green-dark);
+
+3. BACKGROUND GRADIENTS:
+   background: linear-gradient(135deg, var(--primary-green) 0%, var(--accent-green) 100%);
+
+4. CARD BACKGROUNDS:
+   background: var(--mint-green);
+   border: 1px solid var(--sage-green);
+
+5. TEXT HIERARCHY:
+   -- Main headings: var(--forest-green)
+   -- Body text: var(--dark-gray)
+   -- Secondary text: var(--medium-gray)
+   -- Links: var(--primary-green)
+
+6. SUCCESS/ERROR STATES:
+   -- Success: var(--success-green)
+   -- Error: var(--error-red)
+   -- Warning: var(--warning-orange)
+   -- Info: var(--info-blue)
+*/ 
