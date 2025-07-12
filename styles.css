@@ -195,6 +195,10 @@ body {
         --button-group-top: 50%;
         max-height: 80vh;
         overflow-y: auto;
+        --button-width: 140px;
+        --button-height: 42px;
+        --button-spacing: 8px;
+        --button-font-size: 1.1rem;
     }
     .character-clipart {
         position: absolute;
@@ -216,9 +220,9 @@ body {
     }
     .title-image {
         --title-left: 50%;
-        --title-top: 13%;
+        --title-top: 10%;
         width: 200px;
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     
     /* Privacy Policy Mobile Styles */
@@ -315,6 +319,10 @@ body {
     
     .back-button img {
         width: 60px;
+    }
+
+    .menu-button .menu-button-text {
+        font-size: 1.4rem !important;
     }
 }
 
