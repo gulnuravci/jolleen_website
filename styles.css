@@ -13,7 +13,7 @@
 
 .button-container {
     --button-group-left: 65%;
-    --button-group-top: 50%;
+    --button-group-top: 55%;
     position: absolute;
     left: var(--button-group-left);
     top: var(--button-group-top);
@@ -25,7 +25,7 @@
 
 .character-clipart {
     --character-left: 30%;
-    --character-top: 50%;
+    --character-top: 55%;
     position: absolute;
     left: var(--character-left);
     top: var(--character-top);
@@ -44,10 +44,11 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     text-align: center;
+    width: 100%;
 }
 
 .title-image {
-    width: 500px;
+    width: auto;
     height: auto;
     font-family: 'KetupatRamadhan', Arial, sans-serif;
     font-size: 6rem;
@@ -61,8 +62,8 @@
 }
 
 .subtitle {
-    font-family: 'KetupatRamadhan', Arial, sans-serif;
-    font-size: 2rem;
+    font-family: 'Toxigenesis', Arial, sans-serif;
+    font-size: 1.5rem;
     color: #fff;
     text-align: center;
     text-shadow: 2px 2px 8px #222, 0 0 2px #000;
@@ -206,7 +207,7 @@ body {
 @media (max-width: 768px) {
     .button-container {
         --button-group-left: 50%;
-        --button-group-top: 50%;
+        --button-group-top: 45%;
         max-height: 80vh;
         overflow-y: auto;
         --button-width: 140px;
@@ -217,7 +218,7 @@ body {
     .character-clipart {
         position: absolute;
         left: 50%;
-        bottom: 0;
+        bottom: 12%;
         top: auto;
         transform: translateX(-50%);
         width: 98vw;
@@ -234,18 +235,25 @@ body {
     }
     .title-container {
         --title-left: 50%;
-        --title-top: 10%;
+        --title-top: 12%;
+        width: 100%;
+        text-align: center;
     }
     
     .title-image {
-        width: 200px;
+        width: auto;
         font-size: 3.2rem;
         margin-bottom: 5px;
     }
     
     .subtitle {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-top: 2px;
+        width: 100%;
+        max-width: 90vw;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     /* Privacy Policy Mobile Styles */
@@ -474,6 +482,13 @@ body {
     font-family: 'KetupatRamadhan';
     src: url('KetupatRamadhan-K7v2l.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Toxigenesis';
+    src: url('toxigenesis.rg-bold.otf') format('opentype');
+    font-weight: bold;
     font-style: normal;
 }
 
