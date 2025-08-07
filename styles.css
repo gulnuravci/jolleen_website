@@ -84,6 +84,7 @@ body {
     position: relative;
     color: var(--primary-green-deep);
     cursor: url('wand.png') auto;
+    overflow: hidden;
 }
 
 /*
